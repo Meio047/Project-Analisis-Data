@@ -20,5 +20,5 @@ streamlit run dashboard.py
 
 ## Akses dashboard (website)
 ```
-
+https://dashboard-analysis-ecommerce.streamlit.app/
 ```
