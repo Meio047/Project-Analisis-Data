@@ -1,3 +1,12 @@
+## Library yang Digunakan
+```
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+- Streamlit
+```
+
 ## Setup Environment
 ```
 pip install -r requirements.txt
