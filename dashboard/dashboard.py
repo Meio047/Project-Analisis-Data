@@ -216,12 +216,16 @@ with col1:
     st.pyplot(fig, use_container_width=True)
 
 
-st.subheader("Kesimpulan")
+st.subheader("Insight & Recommendation")
 st.markdown("""
-- Metode pembayaran yang paling sering digunakan yaitu dengan kartu kredit.
-- Pelanggan paling banyak ada di provinsi SP (Sao Paulo).
-- Penjualan lebih tinggi pada weekend.
-- Produk paling laris dapat diberikan promo khusus.
-- Kategori produk dengan rating tinggi bisa diprioritaskan.
-- Seller dengan pendapatan terbesar bisa diberikan apresiasi.
+- Metode pembayaran yang paling banyak digunakan adalah kartu kredit. Hal ini mungkin disebabkan oleh kenyamanan dan kemudahan dalam bertransaksi, serta banyaknya promo yang ditawarkan oleh penyedia kartu kredit.
+- Sebagian besar pelanggan berasal dari provinsi São Paulo (SP), menunjukkan bahwa area ini memiliki aktivitas e-commerce yang lebih tinggi dibandingkan wilayah lain.
+- Tren penjualan menunjukkan pola musiman: transaksi lebih sering terjadi pada hari kerja (weekday), sementara pada skala bulanan terlihat adanya peningkatan penjualan dalam satu tahun terakhir.
+- Kategori produk terlaris adalah bed_table_bath (cama_mesa_banho), mengindikasikan permintaan tinggi untuk produk rumah tangga.
+- Seller dengan pendapatan tertinggi menunjukkan konsistensi dalam menjual produk dengan volume besar dan harga yang relatif lebih tinggi dibandingkan seller lainnya.
+- Kategori produk terbaik berdasarkan ulasan pelanggan adalah makanan (alimentos), yang mendapat rata-rata rating lebih tinggi dibandingkan kategori lainnya.
+- Meningkatkan promosi metode pembayaran digital, terutama kartu kredit, untuk meningkatkan konversi penjualan.
+- Mengembangkan strategi pemasaran di São Paulo (SP) sebagai pasar utama, dengan mempertimbangkan ekspansi ke wilayah lain dengan potensi tinggi.
+- Menyesuaikan kampanye promosi dengan tren penjualan harian dan musiman, misalnya memberikan diskon atau flash sale pada hari kerja.
+- Mendorong lebih banyak seller untuk menjual produk kategori makanan dengan kualitas tinggi, karena sudah terbukti mendapatkan review positif dari pelanggan.         
 """)
