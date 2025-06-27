@@ -93,7 +93,7 @@ streamlit run dashboard.py
 ---
 
 ## 📁 Project Structure
-
+```
 📦 e-commerce-data-analysis
  ┣ 📊 notebooks/
  ┃ ┗ analysis.ipynb
@@ -101,3 +101,4 @@ streamlit run dashboard.py
  ┃ ┗ ecommerce_public_dataset.csv
  ┣ 📄 README.md
  ┗ 📄 requirements.txt
+ ```
