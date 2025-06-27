@@ -1,4 +1,4 @@
-# Data analysis project
+# Data Analysis Project
 ---
 This project analyzes a public e-commerce dataset to extract meaningful business insights and answer critical business questions through data wrangling, exploratory analysis, and visualization.
 
@@ -44,10 +44,10 @@ The dataset contains null and missing values that need to be addressed.
 
 This dataset is suitable for RFM analysis as it is transaction-based. The RFM model helps identify high-value customers for targeted marketing and retention strategies.
 **RFM-Based Insights:**
-- Credit card dominates as the primary payment method, showing dependence on digital payments.
-- São Paulo holds the largest customer base, presenting a strong target market.
+- **Credit card** dominates as the primary payment method, showing dependence on digital payments.
+- **São Paulo** holds the largest customer base, presenting a strong target market.
 - Weekday transactions dominate, indicating purchase activity during work breaks.
-- bed_table_bath is the top category, ideal for sellers aiming to boost sales.
+- **bed_table_bath** is the top category, ideal for sellers aiming to boost sales.
 - The best sellers likely implement effective strategies like discounts or premium services.
 - The food category received the best reviews, signaling high customer satisfaction.
 
@@ -95,10 +95,22 @@ streamlit run dashboard.py
 ## 📁 Project Structure
 ```
 📦 e-commerce-data-analysis
- ┣ 📊 notebooks/
- ┃ ┗ analysis.ipynb
+ ┣ 📊 dashboard/
+ ┃ ┣ dashboard.py
+ ┃ ┗ (clean_dataset)
+ ┃
  ┣ 📁 data/
- ┃ ┗ ecommerce_public_dataset.csv
+ ┃ ┣ customers_dataset.csv
+ ┃ ┣ geolocation_dataset.csv
+ ┃ ┣ order_items_dataset.csv
+ ┃ ┣ order_payments_dataset.csv
+ ┃ ┣ order_reviews_dataset.csv
+ ┃ ┣ orders_dataset.csv
+ ┃ ┣ product_category_name_translation.csv
+ ┃ ┣ products_dataset.csv
+ ┃ ┗ sellers_dataset.csv
+ ┣ 🖥️ Data_Analysis_Project.ipynb
  ┣ 📄 README.md
- ┗ 📄 requirements.txt
+ ┣ 📄 requirements.txt
+ ┗ 📄 url.txt
  ```
